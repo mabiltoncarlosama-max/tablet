@@ -1,0 +1,8 @@
+{
+  "name": "Cuaderno Digital Tablet",
+  "description": "Aplicación de apuntes digitales para tablet con biblioteca de plantillas de cuadernos, hojas personalizables y organizador intuitivo de libretas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

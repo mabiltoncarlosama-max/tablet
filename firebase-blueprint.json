@@ -1,0 +1,44 @@
+{
+  "entities": {
+    "UserProfile": {
+      "path": "users/{userId}",
+      "fields": {
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "createdAt": { "type": "number" },
+        "lastLoginAt": { "type": "number" }
+      }
+    },
+    "Folder": {
+      "path": "users/{userId}/folders/{folderId}",
+      "fields": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "icon": { "type": "string" },
+        "color": { "type": "string" },
+        "order": { "type": "number" }
+      }
+    },
+    "Notebook": {
+      "path": "users/{userId}/notebooks/{notebookId}",
+      "fields": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "subject": { "type": "string" },
+        "folderId": { "type": "string" },
+        "coverColor": { "type": "string" },
+        "coverPattern": { "type": "string" },
+        "coverTexture": { "type": "string" },
+        "coverIcon": { "type": "string" },
+        "coverPlaqueText": { "type": "string" },
+        "defaultTemplate": { "type": "string" },
+        "defaultPaperColor": { "type": "string" },
+        "pages": { "type": "array" },
+        "favorite": { "type": "boolean" },
+        "createdAt": { "type": "number" },
+        "updatedAt": { "type": "number" }
+      }
+    }
+  }
+}
